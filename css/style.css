@@ -34,6 +34,7 @@ body{
     font-family: cairo;
     height: auto;
     min-height: 100vh;
+    padding-top: 60px;
 }
 ul{
     list-style: none;
@@ -72,12 +73,11 @@ header{
     border: 1px solid var(--text-muted);
     height: 60px;
     
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 0 !important;
-    z-index: 999999 !important;
-    display: block !important;
-    width: 100% !important;
+   position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 header .container{
     display: flex;
