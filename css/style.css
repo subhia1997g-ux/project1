@@ -20,6 +20,9 @@ a{
 html{
     scroll-behavior: smooth;
 }
+section {
+    scroll-margin-top: 60px; 
+}
 body{
     background-image: url(../images/back.jpg);
     direction: rtl;
